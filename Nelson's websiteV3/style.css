@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top-area { 
+	position:fixed;
+	top: 0;
+	right:0;
+	left: 0;
+	z-index: 2;	
+}
+
+.topbox {
+	background-color: orange;
+}
+
+.heading {
+	float: left;
+}
+
+.search {position: relative;
+	float: left;
+	top: 25px;
+	left: 12px;
+
+}
+
+.logo {
+position: relative;
+	left: 50px;
+width: 90px;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+	clear:left
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:rgb(7,224,210);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color:rgb(7,224,210);
+	color: black;
+}
+
+.search {backgound-color: blue;
+	color: black;
+	padding: 10px 50px
+		
+}
+
+h2 { 
+	color:orange;
+	font-size: 38px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#m-content {
+	padding: 120px 0px 0px 0px
+}
+
+
+
+.picture {
+	width: 100px;
+	float:left;
+	border-style: solid;
+	border-color: grey;
+	margin: 10px 10px 10px 10px;
+}
+
+.words {
+	font-size: 15px;
+}
+
+.review {
+padding: 3px;
+overflow: hidden;
+}
+
+
+.contact-box {
+	width: 25%;
+	border: 2px solid black;
+	height: 250px;
+	float: left;
+	padding: 20px;
+}
+.float-parent{
+	border: 3px solid #fff;
+	padding: 20px;
+	overflow: hidden;	
+	
+	
+}
+
+#review-content {
+
+	padding: 5px;
+	overflow: hidden;
+	
+	
+}
+
+#news-tab-1 {
+	width: 35%;
+	border: 2px solid black;
+	height: 250px;
+	float: left;
+	padding: 20px;
+	
+}
+#news-tab-2 {
+	width: 25%;
+	border: 2px solid black;
+	height: 250px;
+	padding: 20px;
+	float: left;
+	
+}
+
+#news-tab-3 {
+	width: 25%;
+	border: 2px solid black;
+	height: 250px;
+	padding: 20px;
+	float: left;
+	
+}
+.news-titles {
+	text-align: center;
+	
+	
+}
+.foot{
+	display: block;
+	background-color:black;
+	color: white;
+	text-align: center;
+	Padding: 20px 100px;
+}
+	
+.social {
+	justify-content: space-evenly;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	background-color: black;
+	border-radius: 10px;
+}
+
+.social-pic {
+	justify-content:space-evenly;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input[type="text"] ::placeholder {text-align: left;}
